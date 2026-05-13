@@ -23,6 +23,7 @@ and retries automatically when hallucinations are detected.
 
 ##  Project Structure
 ├── src/
+
 │   ├── ingestor.py      # Load PDFs, texts, websites → chunks
 │   ├── vectorstore.py   # ChromaDB store and retrieval
 │   ├── generator.py     # LLM answer generation
@@ -34,6 +35,7 @@ and retries automatically when hallucinations are detected.
 │   └── websites.txt     # Add URLs to scrape here
 ├── main.py              # Entry point
 └── requirements.txt
+
 
 -------------------------------------------------------------
 
