@@ -1,0 +1,12 @@
+langgraph
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+chromadb
+pypdf
+beautifulsoup4
+requests
+python-dotenv
+sentence-transformers

@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# ChromaDB (auto-generated)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secret keys
+.env
+
+# Test file
+test.py
+
+# Personal data files
+data/pdfs/
+data/texts/
+
+# VS Code
+.vscode/
