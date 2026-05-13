@@ -25,15 +25,25 @@ and retries automatically when hallucinations are detected.
 ├── src/
 
 │   ├── ingestor.py      # Load PDFs, texts, websites → chunks
+
 │   ├── vectorstore.py   # ChromaDB store and retrieval
+
 │   ├── generator.py     # LLM answer generation
+
 │   ├── critic.py        # Hallucination detection agent
+
 │   └── graph.py         # LangGraph self-healing pipeline
+
 ├── data/
+
 │   ├── pdfs/            # Add your PDF files here
+
 │   ├── texts/           # Add your text files here
+
 │   └── websites.txt     # Add URLs to scrape here
+
 ├── main.py              # Entry point
+
 └── requirements.txt
 
 
@@ -86,11 +96,19 @@ python main.py --setup
 
 ==================================================
 Question: What is machine learning?
+
 [RETRIEVE] Searching for: 'What is machine learning?'
+
 [GENERATE] Generating answer...
+
 [CRITIC] Evaluating answer...
+
 Critic verdict: PASS
+
 [DECISION] Answer approved! 
+
 FINAL ANSWER: Machine learning is a subset of AI...
+
 VERDICT: PASS
+
 RETRIES: 0
